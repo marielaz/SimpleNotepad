@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/crossword"
+    tools:context="com.example.marielazviskova.simplenotepadapp.AddNoteActivity">
+
+    <include
+        android:id="@+id/toolbar_add"
+        layout="@layout/toolbar"></include>
+
+    <EditText
+        android:id="@+id/titleAddNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_add"
+        android:gravity="center_horizontal"
+        android:hint="Note title"
+        android:paddingTop="@dimen/toppadding_add" />
+
+    <EditText
+        android:id="@+id/contentAddNote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleAddNote"
+        android:gravity="center_horizontal"
+        android:hint="What is on your mind?" />
+
+</RelativeLayout>

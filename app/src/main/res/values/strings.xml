@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SimpleNotepadApp</string>
+    <string name="text_field">Text field</string>
+    <string name="save">save</string>
+</resources>

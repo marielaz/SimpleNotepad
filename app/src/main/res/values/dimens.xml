@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">18dp</dimen>
+    <dimen name="toppadding_add">30dp</dimen>
+    <dimen name="padding_edit_et">30dp</dimen>
+</resources>
